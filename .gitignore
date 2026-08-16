@@ -1,0 +1,51 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+*:Zone.Identifier
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python (in case anything is ever added here)
+__pycache__/
+*.py[cod]
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Secrets, never commit
+*.pem
+*.key
+*.p12
+credentials*.json
+service-account*.json
+
+# Heavy media. Videos live on YouTube, not in git.
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+*.7z
+
+# CAD and mesh source, keep out until a size policy exists
+*.stl
+*.step
+*.stp
+*.f3d
+*.blend
+*.glb
+*.obj
+*.fbx
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.bin
+*.param
