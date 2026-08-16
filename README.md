@@ -14,9 +14,10 @@ September 2024.
 
 **Concept and design. Never implemented in software.**
 
-This repository holds the specification, the design reasoning and the original
-drawings. There is no control code and no detection model here, because none
-were written. Saying so up front is more useful than implying otherwise.
+This repository holds the specification, the design reasoning, the construction
+plan and the 3D models. There is no control code and no detection model here,
+because none were written. Saying so up front is more useful than implying
+otherwise.
 
 What it is worth reading for is the hull form, and how it got there.
 
@@ -75,14 +76,14 @@ Written up in [docs/DESIGN-EVOLUTION.md](docs/DESIGN-EVOLUTION.md).
 
 ## The build
 
-Construction plan, top view. The mesh collection net sits in the channel between
-the two hulls, and the body assembles behind it.
+Construction plan, top view, assembling in order. The mesh collection net sits
+in the channel between the two hulls, and the body overlays behind it.
 
-<img src="assets/animations/construction-topview.gif" width="300" alt="ATCAN construction plan, top view">
+<img src="assets/animations/body-overlay.gif" width="320" alt="ATCAN construction plan, top view, assembling">
 
-Labelled in order: the collection net, the catamaran multi hull, the visual
-camera, the RADAR and solar panels, then the upper frame structure and the body.
-Wheels at the stern so the vehicle can be dragged ashore.
+Collection net, catamaran multi hull, visual camera, RADAR and solar panels,
+then the upper frame structure and the body. Wheels at the stern so the vehicle
+can be dragged ashore rather than lifted.
 
 ## 3D models
 
@@ -107,18 +108,6 @@ the channel between the hulls.
 The GPS module fixes a work route across the target area, and the vehicle runs
 that path. RADAR finds solid objects nearby, then the camera classifies what the
 RADAR found. Range from one sensor, identity from the other.
-
-## Drawings
-
-The two hand drawn top views the design started from, before the hull form
-changed.
-
-| Upper body and solar deck | Twin hulls |
-|---|---|
-| ![Top view, body](assets/drawings/top-view_body.png) | ![Top view, floats](assets/drawings/top-view_floats.png) |
-
-The open channel between the bows is the intake. The body and solar deck sit aft
-of it.
 
 ---
 
@@ -146,8 +135,8 @@ since been deleted, and the folder it lived in was later reused for other work.
 **The 3D models are not lost**, both are still live in Tinkercad and linked above.
 
 Everything else here is reconstructed from the September 2024 design sessions,
-which were preserved in full, plus the two drawings recovered from those
-sessions, the two Tinkercad models, and frames pulled from the submission video.
+which were preserved in full, plus the two Tinkercad models and the original
+work section of the submission video.
 
 The animations on this page are cut from the SIH submission video, from the
 section that is original work. None of the stock footage used elsewhere in that
