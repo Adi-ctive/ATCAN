@@ -73,9 +73,45 @@ Written up in [docs/DESIGN-EVOLUTION.md](docs/DESIGN-EVOLUTION.md).
 
 ---
 
+## The build
+
+Construction plan, top view. The mesh collection net sits in the channel between
+the two hulls, and the body assembles behind it.
+
+<img src="assets/animations/construction-topview.gif" width="300" alt="ATCAN construction plan, top view">
+
+Labelled in order: the collection net, the catamaran multi hull, the visual
+camera, the RADAR and solar panels, then the upper frame structure and the body.
+Wheels at the stern so the vehicle can be dragged ashore.
+
+## 3D models
+
+Both variants were modelled in Tinkercad and are still live.
+
+| Variant | Model |
+|---|---|
+| ATCAN-CN, collection net | [open in Tinkercad](https://www.tinkercad.com/things/2SJ2exZD5NJ-project-atcan-cn?sharecode=gtGMBqCVp-H5ocYRuEdGavWZATnF1qAFQHY5uO7CQJo) |
+| ATCAN-CB, conveyor box | [open in Tinkercad](https://www.tinkercad.com/things/2pF9utFbsCY-project-atcan-cb?sharecode=-ppExi7yzbJ3OlkTagIZXAU7LBvpnSOtlTNatSzgXus) |
+
+![ATCAN-CN 3D model](assets/animations/model-3d.gif)
+
+The CN variant on the water plane. The net is the yellow assembly slung under
+the channel between the hulls.
+
+## Operation
+
+| Route planning | Detection |
+|---|---|
+| ![GPS route planning](assets/animations/route-planning.gif) | ![RADAR detection](assets/animations/radar-detection.gif) |
+
+The GPS module fixes a work route across the target area, and the vehicle runs
+that path. RADAR finds solid objects nearby, then the camera classifies what the
+RADAR found. Range from one sensor, identity from the other.
+
 ## Drawings
 
-The two hand drawn top views that the design was built from.
+The two hand drawn top views the design started from, before the hull form
+changed.
 
 | Upper body and solar deck | Twin hulls |
 |---|---|
@@ -105,13 +141,17 @@ team and belong to their respective owners.
 
 ## Provenance
 
-The original project document and the 3D model files are lost. The document was
-stored in Google Drive and has since been deleted, and the drive folder it lived
-in was later reused for other work.
+The original project document is lost. It was stored in Google Drive and has
+since been deleted, and the folder it lived in was later reused for other work.
+**The 3D models are not lost**, both are still live in Tinkercad and linked above.
 
-Everything here is reconstructed from the September 2024 design sessions, which
-were preserved in full, plus the two drawings recovered from those sessions and
-the two surviving videos.
+Everything else here is reconstructed from the September 2024 design sessions,
+which were preserved in full, plus the two drawings recovered from those
+sessions, the two Tinkercad models, and frames pulled from the submission video.
+
+The animations on this page are cut from the SIH submission video, from the
+section that is original work. None of the stock footage used elsewhere in that
+video appears here.
 
 Where this repository states a number, that number came from the original
 submission. Where it explains a decision, that explanation is traceable to a

@@ -91,11 +91,33 @@ vehicle loses attitude stability.
 
 ---
 
+## Component layout
+
+Recovered from the construction plan in the submission video. Top view, bow at
+the top.
+
+| Position | Component |
+|---|---|
+| Channel between the bows | The collection net, mesh, held horizontally |
+| Port and starboard | The catamaran multi hull, solid HDPE |
+| Forward on the body | The visual camera |
+| Body roof | RADAR and solar panels |
+| Body | Upper frame structure, electrical components, propulsion |
+| Stern | Rudder fin for steering, propellers, wheels |
+
+The wheels are not for driving. They are there so the vehicle can be dragged
+ashore for emptying and servicing without lifting it.
+
+---
+
 ## What was not built
 
-This project stopped at design. There is no control software, no detection
-model and no vehicle in this repository, because none were written. The
-deliverables were the design document, the 3D model and the submission video.
+This project stopped at design. There is no control software and no detection
+model in this repository, because none were written. The deliverables were the
+design document, the 3D models and the submission video.
+
+Both 3D models survive and are linked from the README. The design document does
+not.
 
 The engineering content that does survive is the specification above and the
 sequence of physical design decisions recorded in
