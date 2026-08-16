@@ -9,10 +9,12 @@ constraint. The corrections are quoted verbatim from the design session.
 ## Starting point
 
 A cuboidal body with a space at the front for a net, a grey floating bottom
-section and a green upper body carrying solar panels. Two top view drawings were
-drawn by hand first and used as the input to the design work.
+section and a green upper body carrying solar panels. Two rough top view sketches
+were the input to the design work. Neither survived into the final design and
+neither is kept here, because all three corrections below overturned them.
 
-Both drawings are in [`../assets/drawings/`](../assets/drawings/).
+The design they were replaced by is the one in the construction plan, shown in
+the README.
 
 ---
 
@@ -63,7 +65,7 @@ above the waterline.
 
 **The result:** twin HDPE hulls, an open channel between the bows, the intake in
 the channel, and the body and solar deck aft of the channel. That is the layout
-shown in the two drawings.
+in the construction plan.
 
 ---
 
